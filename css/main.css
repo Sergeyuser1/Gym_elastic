@@ -23,6 +23,7 @@
 }
 :root {
   --color-dark: #000000;
+  --color-dark-alternate: #131619;
   --color-dark-gray: #404040;
   --color-light: #ffffff;
   --color-light-gray: #c4c4c4;
@@ -100,6 +101,7 @@ h6 {
   align-items: center;
   column-gap: 20px;
   padding-inline: 32px;
+  background-color: var(--color-dark-alternate);
 }
 .header-logo {
   flex-shrink: 0;
